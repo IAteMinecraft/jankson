@@ -32,8 +32,9 @@ dependencies {
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 
+    api "blue.endless:jankson:1.2.3"
     include "blue.endless:jankson:1.2.3"
-    forgeRuntimeLibrary 'blue.endless:jankson:1.2.2'
+    forgeRuntimeLibrary "blue.endless:jankson:1.2.3"
 }
 
 processResources {
