@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "jankson",
+  "id": "jankson_multi",
   "version": "${version}",
   "name": "Jankson",
   "description": "",
